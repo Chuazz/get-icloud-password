@@ -1,0 +1,29 @@
+.signIn {
+    font-size: 22px;
+    line-height: 36px;
+    color: #000;
+    -webkit-margin-before: 20px;
+    margin-block-start: 20px;
+    text-align: center;
+}
+
+.label {
+    position: absolute;
+    transition-timing-function: ease-in;
+    transition-duration: 0.125s;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: -0.022em;
+    color: #6e6e73;
+    pointer-events: none;
+}
+
+.label.blured {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.label.focus {
+    top: 4px;
+    font-size: 12px;
+}
