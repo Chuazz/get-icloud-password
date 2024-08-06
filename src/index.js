@@ -11,9 +11,9 @@ inputs.forEach((input, index) => {
 
         e.target.value = numericValue;
 
-        if (e.target.value && inputs[index + 1]) {
-            inputs[index + 1].focus();
-        }
+        // if (e.target.value && inputs[index + 1]) {
+        //     inputs[index + 1].focus();
+        // }
 
         const password = inputs.map((t) => t.value).filter((t) => t !== '');
 
